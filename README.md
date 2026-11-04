@@ -12,7 +12,7 @@ El caso de estudio representa un compartimento musculoesquelético mediante el m
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado de Sistemas Fisiológicos  
 **Programa:** Ingeniería Biomédica  
-**Estudiante:** Gael Sebastian Andrade Arellano · Número de control · correo@tijuana.tecnm.mx
+**Estudiante:** Gael Sebastian Andrade Arellano · 2212177 · l23212177@tijuana.tecnm.mx
 
 **Repositorio de la asignatura:** https://github.com/DrPaulValle/MSF-IBF1020  
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
