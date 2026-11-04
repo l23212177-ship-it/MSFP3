@@ -1,4 +1,6 @@
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=l23212177-ship-it/MSFP3)
+[REDAME.md](https://github.com/user-attachments/files/34348584/REDAME.md)
+<!-- BOTÓN DE MATLAB ONLINE: reemplazar USUARIO por tu usuario de GitHub (el nombre del repositorio debe ser MSFP3). -->
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=USUARIO/MSFP3)
 
 # Práctica 3 (MSFP3) — Modelado y control del sistema musculoesquelético
 
@@ -12,7 +14,7 @@ El caso de estudio representa un compartimento musculoesquelético mediante el m
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado de Sistemas Fisiológicos  
 **Programa:** Ingeniería Biomédica  
-**Estudiante:** Gael Sebastian Andrade Arellano · 2212177 · l23212177@tijuana.tecnm.mx
+**Estudiante:** Gael Sebastian Andrade Arellano · Número de control · correo@tijuana.tecnm.mx
 
 **Repositorio de la asignatura:** https://github.com/DrPaulValle/MSF-IBF1020  
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
@@ -437,7 +439,13 @@ Elaborar con **BioRender** (o una herramienta equivalente) un diagrama que relac
 
 La asociación de $C_p$ y $C_s$ con las estructuras biológicas es simplificada, según el instructivo.
 
-**Archivo del diagrama:** agregar la imagen exportada desde BioRender al repositorio (nombre sugerido: `diagrama_biologico.png`).
+### Diagrama elaborado
+
+![Diagrama biológico del sistema musculoesquelético elaborado en BioRender](Diagrama_biologico.png)
+
+*Figura. Diagrama biológico elaborado en BioRender: relaciona el elemento contráctil muscular ($F_0$), las estructuras elásticas musculares ($C_p$), el tendón ($C_s$), la fuerza generada ($F(t)$), los desplazamientos ($x(t)$, $x(t)-x_1(t)$) y los elementos asociados con el comportamiento viscoso y elástico ($R$) con el modelo mecánico de la Figura 5.3. Se indican los casos control ($R=100\,\Omega$) y caso ($R=10\,\mathrm{k}\Omega$).*
+
+La imagen se muestra en este README mediante la ruta relativa `Diagrama_biologico.png`; el archivo debe estar en la raíz del repositorio (o ajustarse la ruta si se coloca en una subcarpeta).
 
 [Volver al contenido](#contenido)
 
@@ -585,7 +593,7 @@ Una organización **sugerida** para la entrega, compatible con los elementos sol
 ├── impulso_cerrado_matlab.pdf
 ├── impulso_abierto_python.pdf
 ├── impulso_cerrado_python.pdf
-├── diagrama_biologico.png             # Diagrama de BioRender
+├── Diagrama_biologico.png             # Diagrama de BioRender (incrustado en el README)
 ├── capturas/                          # Capturas de simulaciones y de Tune
 └── complementarios/                   # Archivos adicionales usados en la práctica
 ```
@@ -647,7 +655,7 @@ No se requieren: la práctica se desarrolla exclusivamente mediante experimentac
 | Sintonización | Ganancias $k_P$, $k_I$, $k_D$ y evidencia de *Tune* |
 | MATLAB | Cuaderno `.mlx`, exportación `.pdf` y figuras en PDF |
 | Python | Código `.py` y figuras |
-| Diagrama biológico | Imagen de BioRender con los elementos solicitados |
+| Diagrama biológico | Imagen de BioRender con los elementos solicitados, incrustada en el README |
 | Capturas | Capturas de las simulaciones |
 | Documentación | `README.md` (reporte, discusión y conclusiones) y `CITATION.cff` |
 
