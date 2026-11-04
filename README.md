@@ -426,6 +426,8 @@ Las dependencias deben verificarse directamente en los módulos importados por e
 ## Diagrama biológico
 
 Elaborar con **BioRender** (o una herramienta equivalente) un diagrama que relacione los elementos del modelo con las estructuras del sistema musculoesquelético. Debe identificar como mínimo los elementos de la tabla y relacionar cada uno con su representación en el modelo mecánico y con su equivalente eléctrico.
+<img width="720" height="504" alt="image" src="https://github.com/user-attachments/assets/82093723-84e2-444f-bdb8-5a4cf1e3d37b" />
+
 
 | Elemento biológico | Modelo mecánico | Equivalente eléctrico |
 |---|---|---|
